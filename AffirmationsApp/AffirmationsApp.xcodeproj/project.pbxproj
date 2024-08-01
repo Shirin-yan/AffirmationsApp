@@ -14,6 +14,19 @@
 		6644D3EC2C5A7B7D00C69B8A /* AffirmationsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644D3EB2C5A7B7D00C69B8A /* AffirmationsAppTests.swift */; };
 		6644D3F62C5A7B7D00C69B8A /* AffirmationsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644D3F52C5A7B7D00C69B8A /* AffirmationsAppUITests.swift */; };
 		6644D3F82C5A7B7D00C69B8A /* AffirmationsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644D3F72C5A7B7D00C69B8A /* AffirmationsAppUITestsLaunchTests.swift */; };
+		669DB5A02C5B4817001573BC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB59F2C5B4817001573BC /* Category.swift */; };
+		669DB5A22C5B4841001573BC /* Affirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5A12C5B4841001573BC /* Affirmation.swift */; };
+		669DB5A42C5B488C001573BC /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5A32C5B488C001573BC /* AppDatabase.swift */; };
+		669DB5A62C5B48A1001573BC /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5A52C5B48A1001573BC /* Persistance.swift */; };
+		669DB5A82C5B4948001573BC /* Migrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5A72C5B4948001573BC /* Migrator.swift */; };
+		669DB5AB2C5B4D53001573BC /* AppDatabaseRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5AA2C5B4D53001573BC /* AppDatabaseRepo.swift */; };
+		669DB5AD2C5B5000001573BC /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5AC2C5B5000001573BC /* Defaults.swift */; };
+		669DB5AF2C5B5EBB001573BC /* CategoryTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5AE2C5B5EBB001573BC /* CategoryTranslation.swift */; };
+		669DB5B12C5B5F07001573BC /* AffirmationTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5B02C5B5F07001573BC /* AffirmationTranslation.swift */; };
+		669DB5B32C5B5F64001573BC /* CategoryWithTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5B22C5B5F64001573BC /* CategoryWithTranslation.swift */; };
+		669DB5B52C5B5F91001573BC /* AffirmationWithTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5B42C5B5F91001573BC /* AffirmationWithTranslation.swift */; };
+		669DB5BD2C5B7338001573BC /* MockDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5BC2C5B7338001573BC /* MockDataHelper.swift */; };
+		669DB5C32C5BA71E001573BC /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 669DB5C22C5BA71E001573BC /* GRDB */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,18 @@
 		6644D3F12C5A7B7D00C69B8A /* AffirmationsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffirmationsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6644D3F52C5A7B7D00C69B8A /* AffirmationsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsAppUITests.swift; sourceTree = "<group>"; };
 		6644D3F72C5A7B7D00C69B8A /* AffirmationsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		669DB59F2C5B4817001573BC /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		669DB5A12C5B4841001573BC /* Affirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmation.swift; sourceTree = "<group>"; };
+		669DB5A32C5B488C001573BC /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
+		669DB5A52C5B48A1001573BC /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		669DB5A72C5B4948001573BC /* Migrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migrator.swift; sourceTree = "<group>"; };
+		669DB5AA2C5B4D53001573BC /* AppDatabaseRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabaseRepo.swift; sourceTree = "<group>"; };
+		669DB5AC2C5B5000001573BC /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		669DB5AE2C5B5EBB001573BC /* CategoryTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTranslation.swift; sourceTree = "<group>"; };
+		669DB5B02C5B5F07001573BC /* AffirmationTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationTranslation.swift; sourceTree = "<group>"; };
+		669DB5B22C5B5F64001573BC /* CategoryWithTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryWithTranslation.swift; sourceTree = "<group>"; };
+		669DB5B42C5B5F91001573BC /* AffirmationWithTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationWithTranslation.swift; sourceTree = "<group>"; };
+		669DB5BC2C5B7338001573BC /* MockDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669DB5C32C5BA71E001573BC /* GRDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +121,10 @@
 		6644D3D82C5A7B7C00C69B8A /* AffirmationsApp */ = {
 			isa = PBXGroup;
 			children = (
-				6644D3D92C5A7B7C00C69B8A /* AffirmationsAppApp.swift */,
-				6644D3DB2C5A7B7C00C69B8A /* ContentView.swift */,
+				669DB59B2C5B478B001573BC /* Core */,
+				669DB59C2C5B4796001573BC /* Data */,
+				669DB59D2C5B479E001573BC /* Domain */,
+				669DB59E2C5B47A8001573BC /* Presentation */,
 				6644D3DD2C5A7B7D00C69B8A /* Assets.xcassets */,
 				6644D3DF2C5A7B7D00C69B8A /* AffirmationsApp.entitlements */,
 				6644D3E02C5A7B7D00C69B8A /* Preview Content */,
@@ -129,6 +157,56 @@
 			path = AffirmationsAppUITests;
 			sourceTree = "<group>";
 		};
+		669DB59B2C5B478B001573BC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				669DB5AC2C5B5000001573BC /* Defaults.swift */,
+				669DB59F2C5B4817001573BC /* Category.swift */,
+				669DB5A12C5B4841001573BC /* Affirmation.swift */,
+				669DB5AE2C5B5EBB001573BC /* CategoryTranslation.swift */,
+				669DB5B02C5B5F07001573BC /* AffirmationTranslation.swift */,
+				669DB5B22C5B5F64001573BC /* CategoryWithTranslation.swift */,
+				669DB5B42C5B5F91001573BC /* AffirmationWithTranslation.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		669DB59C2C5B4796001573BC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				669DB5A92C5B4D0E001573BC /* DB */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		669DB59D2C5B479E001573BC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				669DB5AA2C5B4D53001573BC /* AppDatabaseRepo.swift */,
+				669DB5BC2C5B7338001573BC /* MockDataHelper.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		669DB59E2C5B47A8001573BC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6644D3D92C5A7B7C00C69B8A /* AffirmationsAppApp.swift */,
+				6644D3DB2C5A7B7C00C69B8A /* ContentView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		669DB5A92C5B4D0E001573BC /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				669DB5A32C5B488C001573BC /* AppDatabase.swift */,
+				669DB5A52C5B48A1001573BC /* Persistance.swift */,
+				669DB5A72C5B4948001573BC /* Migrator.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +223,9 @@
 			dependencies = (
 			);
 			name = AffirmationsApp;
+			packageProductDependencies = (
+				669DB5C22C5BA71E001573BC /* GRDB */,
+			);
 			productName = AffirmationsApp;
 			productReference = 6644D3D62C5A7B7C00C69B8A /* AffirmationsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +298,9 @@
 				Base,
 			);
 			mainGroup = 6644D3CD2C5A7B7B00C69B8A;
+			packageReferences = (
+				669DB5C12C5BA71E001573BC /* XCRemoteSwiftPackageReference "GRDB" */,
+			);
 			productRefGroup = 6644D3D72C5A7B7C00C69B8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +343,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669DB5B12C5B5F07001573BC /* AffirmationTranslation.swift in Sources */,
+				669DB5B32C5B5F64001573BC /* CategoryWithTranslation.swift in Sources */,
+				669DB5AD2C5B5000001573BC /* Defaults.swift in Sources */,
+				669DB5A22C5B4841001573BC /* Affirmation.swift in Sources */,
+				669DB5B52C5B5F91001573BC /* AffirmationWithTranslation.swift in Sources */,
 				6644D3DC2C5A7B7C00C69B8A /* ContentView.swift in Sources */,
 				6644D3DA2C5A7B7C00C69B8A /* AffirmationsAppApp.swift in Sources */,
+				669DB5A82C5B4948001573BC /* Migrator.swift in Sources */,
+				669DB5AB2C5B4D53001573BC /* AppDatabaseRepo.swift in Sources */,
+				669DB5A02C5B4817001573BC /* Category.swift in Sources */,
+				669DB5A42C5B488C001573BC /* AppDatabase.swift in Sources */,
+				669DB5A62C5B48A1001573BC /* Persistance.swift in Sources */,
+				669DB5AF2C5B5EBB001573BC /* CategoryTranslation.swift in Sources */,
+				669DB5BD2C5B7338001573BC /* MockDataHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +520,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AffirmationsApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 3T343GTPL5;
+				DEVELOPMENT_TEAM = 847S254GLW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -443,7 +539,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yan.shirin.AffirmationsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = yan.shirin.AffirmationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -462,7 +558,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AffirmationsApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 3T343GTPL5;
+				DEVELOPMENT_TEAM = 847S254GLW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -481,7 +577,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yan.shirin.AffirmationsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = yan.shirin.AffirmationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -621,6 +717,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		669DB5C12C5BA71E001573BC /* XCRemoteSwiftPackageReference "GRDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		669DB5C22C5BA71E001573BC /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 669DB5C12C5BA71E001573BC /* XCRemoteSwiftPackageReference "GRDB" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6644D3CE2C5A7B7B00C69B8A /* Project object */;
 }
