@@ -5,14 +5,17 @@
   Created by Shirin-Yan on 01.08.2024.
   
 */
-"continue" = "Continue";
-"choose_cat" = "Choose Your Preferred Category";
-"choose_gender" = "Choose Your Gender";
-"gender" = "Gender";
-"male" = "Male";
-"female" = "Female";
-"blue" = "Blue";
-"pink" = "Pink";
-"save" = "Save";
-"cats" = "Categories";
-"lang" = "Language";
+
+"onboard_title" = "Повторяйте аффирмации ежедневно для позитива";
+"continue" = "Продолжать";
+"choose_cat" = "Выберите предпочитаемую категорию";
+"choose_gender" = "Выберите свой пол";
+"gender" = "Пол";
+"male" = "Мужской";
+"female" = "Женский";
+"blue" = "Синий";
+"pink" = "Розовый";
+"save" = "Сохранить";
+"cats" = "Категории";
+"lang" = "Язык";
+"background" = "Фон";

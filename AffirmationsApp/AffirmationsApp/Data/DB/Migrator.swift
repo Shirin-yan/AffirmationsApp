@@ -28,7 +28,6 @@ extension AppDatabase {
     private func createCategoryAndAffirmationTables(_ db: GRDB.Database) throws {
         try db.create(table: "category") { table in
             table.autoIncrementedPrimaryKey("id")
-            table.column("text", .text).notNull()
         }
 
         try db.create(table: "categoryTranslation") { table in

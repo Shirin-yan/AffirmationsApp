@@ -9,11 +9,7 @@ import Foundation
 
 class MockDataHelper {
     
-    init(){
-        seedDatabas()
-    }
-    
-    func seedDatabas(){
+    func seedDatabase(){
         if Defaults.onboardingShown { return }
         guard let loveCategory = AppDatabase.shared.insertCategory() else { return }
         AppDatabase.shared.insertCategoryTranslations(translations: [

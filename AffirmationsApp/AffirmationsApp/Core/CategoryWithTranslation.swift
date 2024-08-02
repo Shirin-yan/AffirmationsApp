@@ -7,11 +7,12 @@
 
 import Foundation
 
-struct CategoryWithTranslations: Codable {
+struct CategoryWithTranslations: Codable, Identifiable {
+    var id: UUID = UUID()
     var category: Category
     var translations: [CategoryTranslation]
     
-    func getCategoryName(lang: String = Defaults.lang) -> String {
-        return translations.first(where: {$0.langCode == lang })?.name ?? ""
+    func getCategoryName(lang: String = Locale.current.languageCode ?? "ru") -> String {
+        return translations.first(where: {$0.langCode == lang })?.name ?? translations.first?.name ?? ""
     }
 }

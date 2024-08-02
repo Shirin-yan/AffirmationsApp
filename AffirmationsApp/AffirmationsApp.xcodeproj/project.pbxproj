@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6644D3DA2C5A7B7C00C69B8A /* AffirmationsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644D3D92C5A7B7C00C69B8A /* AffirmationsAppApp.swift */; };
-		6644D3DC2C5A7B7C00C69B8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644D3DB2C5A7B7C00C69B8A /* ContentView.swift */; };
+		6644D3DA2C5A7B7C00C69B8A /* AffirmationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644D3D92C5A7B7C00C69B8A /* AffirmationsApp.swift */; };
+		6644D3DC2C5A7B7C00C69B8A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644D3DB2C5A7B7C00C69B8A /* MainView.swift */; };
 		6644D3DE2C5A7B7D00C69B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6644D3DD2C5A7B7D00C69B8A /* Assets.xcassets */; };
 		6644D3E22C5A7B7D00C69B8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6644D3E12C5A7B7D00C69B8A /* Preview Assets.xcassets */; };
 		6644D3EC2C5A7B7D00C69B8A /* AffirmationsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644D3EB2C5A7B7D00C69B8A /* AffirmationsAppTests.swift */; };
@@ -27,6 +27,15 @@
 		669DB5B52C5B5F91001573BC /* AffirmationWithTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5B42C5B5F91001573BC /* AffirmationWithTranslation.swift */; };
 		669DB5BD2C5B7338001573BC /* MockDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5BC2C5B7338001573BC /* MockDataHelper.swift */; };
 		669DB5C32C5BA71E001573BC /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 669DB5C22C5BA71E001573BC /* GRDB */; };
+		669DB5C82C5BAF47001573BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 669DB5C62C5BAF47001573BC /* Localizable.strings */; };
+		669DB5CC2C5BC02E001573BC /* SelectPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5CB2C5BC02E001573BC /* SelectPreferencesView.swift */; };
+		669DB5CE2C5BC04A001573BC /* SelectPreferencesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5CD2C5BC04A001573BC /* SelectPreferencesVM.swift */; };
+		669DB5D12C5BC332001573BC /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5D02C5BC332001573BC /* Gender.swift */; };
+		669DB5D42C5BC3AA001573BC /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 669DB5D32C5BC3AA001573BC /* Resolver */; };
+		669DB5D62C5BC3E1001573BC /* ResolverExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5D52C5BC3E1001573BC /* ResolverExt.swift */; };
+		669DB5DA2C5BCF54001573BC /* SelectionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB5D92C5BCF54001573BC /* SelectionCardView.swift */; };
+		66C4C99E2C5CC8A800CED0B0 /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C4C99D2C5CC8A800CED0B0 /* MainVM.swift */; };
+		66C4C9A22C5CEA0100CED0B0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C4C9A12C5CEA0100CED0B0 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6622B8262C5CF60D009AD61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6622B8272C5CF685009AD61F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6644D3D62C5A7B7C00C69B8A /* AffirmationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffirmationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6644D3D92C5A7B7C00C69B8A /* AffirmationsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsAppApp.swift; sourceTree = "<group>"; };
-		6644D3DB2C5A7B7C00C69B8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6644D3D92C5A7B7C00C69B8A /* AffirmationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsApp.swift; sourceTree = "<group>"; };
+		6644D3DB2C5A7B7C00C69B8A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		6644D3DD2C5A7B7D00C69B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6644D3DF2C5A7B7D00C69B8A /* AffirmationsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AffirmationsApp.entitlements; sourceTree = "<group>"; };
 		6644D3E12C5A7B7D00C69B8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -70,6 +81,14 @@
 		669DB5B22C5B5F64001573BC /* CategoryWithTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryWithTranslation.swift; sourceTree = "<group>"; };
 		669DB5B42C5B5F91001573BC /* AffirmationWithTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationWithTranslation.swift; sourceTree = "<group>"; };
 		669DB5BC2C5B7338001573BC /* MockDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataHelper.swift; sourceTree = "<group>"; };
+		669DB5C72C5BAF47001573BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		669DB5CB2C5BC02E001573BC /* SelectPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPreferencesView.swift; sourceTree = "<group>"; };
+		669DB5CD2C5BC04A001573BC /* SelectPreferencesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPreferencesVM.swift; sourceTree = "<group>"; };
+		669DB5D02C5BC332001573BC /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		669DB5D52C5BC3E1001573BC /* ResolverExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolverExt.swift; sourceTree = "<group>"; };
+		669DB5D92C5BCF54001573BC /* SelectionCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionCardView.swift; sourceTree = "<group>"; };
+		66C4C99D2C5CC8A800CED0B0 /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		66C4C9A12C5CEA0100CED0B0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669DB5D42C5BC3AA001573BC /* Resolver in Frameworks */,
 				669DB5C32C5BA71E001573BC /* GRDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +141,7 @@
 		6644D3D82C5A7B7C00C69B8A /* AffirmationsApp */ = {
 			isa = PBXGroup;
 			children = (
+				6622B8262C5CF60D009AD61F /* Info.plist */,
 				669DB59B2C5B478B001573BC /* Core */,
 				669DB59C2C5B4796001573BC /* Data */,
 				669DB59D2C5B479E001573BC /* Domain */,
@@ -128,6 +149,7 @@
 				6644D3DD2C5A7B7D00C69B8A /* Assets.xcassets */,
 				6644D3DF2C5A7B7D00C69B8A /* AffirmationsApp.entitlements */,
 				6644D3E02C5A7B7D00C69B8A /* Preview Content */,
+				669DB5C62C5BAF47001573BC /* Localizable.strings */,
 			);
 			path = AffirmationsApp;
 			sourceTree = "<group>";
@@ -160,6 +182,7 @@
 		669DB59B2C5B478B001573BC /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				669DB5D02C5BC332001573BC /* Gender.swift */,
 				669DB5AC2C5B5000001573BC /* Defaults.swift */,
 				669DB59F2C5B4817001573BC /* Category.swift */,
 				669DB5A12C5B4841001573BC /* Affirmation.swift */,
@@ -184,6 +207,7 @@
 			children = (
 				669DB5AA2C5B4D53001573BC /* AppDatabaseRepo.swift */,
 				669DB5BC2C5B7338001573BC /* MockDataHelper.swift */,
+				669DB5D52C5BC3E1001573BC /* ResolverExt.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -191,8 +215,10 @@
 		669DB59E2C5B47A8001573BC /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				6644D3D92C5A7B7C00C69B8A /* AffirmationsAppApp.swift */,
-				6644D3DB2C5A7B7C00C69B8A /* ContentView.swift */,
+				6644D3D92C5A7B7C00C69B8A /* AffirmationsApp.swift */,
+				66C4C99F2C5CC8AD00CED0B0 /* Main */,
+				66C4C9A02C5CE9EA00CED0B0 /* Settings */,
+				669DB5CF2C5BC050001573BC /* SelectPreferences */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -205,6 +231,33 @@
 				669DB5A72C5B4948001573BC /* Migrator.swift */,
 			);
 			path = DB;
+			sourceTree = "<group>";
+		};
+		669DB5CF2C5BC050001573BC /* SelectPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				669DB5CD2C5BC04A001573BC /* SelectPreferencesVM.swift */,
+				669DB5CB2C5BC02E001573BC /* SelectPreferencesView.swift */,
+				669DB5D92C5BCF54001573BC /* SelectionCardView.swift */,
+			);
+			path = SelectPreferences;
+			sourceTree = "<group>";
+		};
+		66C4C99F2C5CC8AD00CED0B0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				66C4C99D2C5CC8A800CED0B0 /* MainVM.swift */,
+				6644D3DB2C5A7B7C00C69B8A /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		66C4C9A02C5CE9EA00CED0B0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				66C4C9A12C5CEA0100CED0B0 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +278,7 @@
 			name = AffirmationsApp;
 			packageProductDependencies = (
 				669DB5C22C5BA71E001573BC /* GRDB */,
+				669DB5D32C5BC3AA001573BC /* Resolver */,
 			);
 			productName = AffirmationsApp;
 			productReference = 6644D3D62C5A7B7C00C69B8A /* AffirmationsApp.app */;
@@ -296,10 +350,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 6644D3CD2C5A7B7B00C69B8A;
 			packageReferences = (
 				669DB5C12C5BA71E001573BC /* XCRemoteSwiftPackageReference "GRDB" */,
+				669DB5D22C5BC3AA001573BC /* XCRemoteSwiftPackageReference "Resolver" */,
 			);
 			productRefGroup = 6644D3D72C5A7B7C00C69B8A /* Products */;
 			projectDirPath = "";
@@ -318,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6644D3E22C5A7B7D00C69B8A /* Preview Assets.xcassets in Resources */,
+				669DB5C82C5BAF47001573BC /* Localizable.strings in Resources */,
 				6644D3DE2C5A7B7D00C69B8A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,19 +400,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66C4C9A22C5CEA0100CED0B0 /* SettingsView.swift in Sources */,
 				669DB5B12C5B5F07001573BC /* AffirmationTranslation.swift in Sources */,
 				669DB5B32C5B5F64001573BC /* CategoryWithTranslation.swift in Sources */,
 				669DB5AD2C5B5000001573BC /* Defaults.swift in Sources */,
+				669DB5CE2C5BC04A001573BC /* SelectPreferencesVM.swift in Sources */,
 				669DB5A22C5B4841001573BC /* Affirmation.swift in Sources */,
 				669DB5B52C5B5F91001573BC /* AffirmationWithTranslation.swift in Sources */,
-				6644D3DC2C5A7B7C00C69B8A /* ContentView.swift in Sources */,
-				6644D3DA2C5A7B7C00C69B8A /* AffirmationsAppApp.swift in Sources */,
+				6644D3DC2C5A7B7C00C69B8A /* MainView.swift in Sources */,
+				6644D3DA2C5A7B7C00C69B8A /* AffirmationsApp.swift in Sources */,
 				669DB5A82C5B4948001573BC /* Migrator.swift in Sources */,
 				669DB5AB2C5B4D53001573BC /* AppDatabaseRepo.swift in Sources */,
+				669DB5D62C5BC3E1001573BC /* ResolverExt.swift in Sources */,
+				66C4C99E2C5CC8A800CED0B0 /* MainVM.swift in Sources */,
+				669DB5CC2C5BC02E001573BC /* SelectPreferencesView.swift in Sources */,
 				669DB5A02C5B4817001573BC /* Category.swift in Sources */,
 				669DB5A42C5B488C001573BC /* AppDatabase.swift in Sources */,
 				669DB5A62C5B48A1001573BC /* Persistance.swift in Sources */,
 				669DB5AF2C5B5EBB001573BC /* CategoryTranslation.swift in Sources */,
+				669DB5DA2C5BCF54001573BC /* SelectionCardView.swift in Sources */,
+				669DB5D12C5BC332001573BC /* Gender.swift in Sources */,
 				669DB5BD2C5B7338001573BC /* MockDataHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,12 +456,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		669DB5C62C5BAF47001573BC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669DB5C72C5BAF47001573BC /* en */,
+				6622B8272C5CF685009AD61F /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		6644D3F92C5A7B7D00C69B8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -461,6 +538,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -524,6 +602,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AffirmationsApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -562,6 +641,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AffirmationsApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -727,6 +807,14 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		669DB5D22C5BC3AA001573BC /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -734,6 +822,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 669DB5C12C5BA71E001573BC /* XCRemoteSwiftPackageReference "GRDB" */;
 			productName = GRDB;
+		};
+		669DB5D32C5BC3AA001573BC /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 669DB5D22C5BC3AA001573BC /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

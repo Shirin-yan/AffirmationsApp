@@ -19,7 +19,7 @@ struct AppDatabaseRepo: AppDatabaseRepoProtocol {
         return AppDatabase.shared.getCategories()
     }
     
-    func getAffirmations(categoryId: Int64?) -> [AffirmationWithTranslation] {
+    func getAffirmations(categoryId: Int64? = Int64(Defaults.category)) -> [AffirmationWithTranslation] {
         guard let categoryId = categoryId else { return [] }
         return AppDatabase.shared.getAffirmations(categoryId: categoryId)
     }

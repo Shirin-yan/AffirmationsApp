@@ -11,8 +11,8 @@ struct AffirmationWithTranslation {
     var affirmation: Affirmation
     var translations: [AffirmationTranslation]
 
-    func getAffirmationText(lang: String = Defaults.lang) -> String {
-        return translations.first(where: {$0.langCode == lang })?.text ?? ""
+    func getAffirmationText(lang: String = Locale.current.languageCode ?? "ru") -> String {
+        return translations.first(where: {$0.langCode == lang })?.text ?? translations.first?.text ?? ""
     }
 }
 
